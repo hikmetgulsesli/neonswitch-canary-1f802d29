@@ -1,0 +1,248 @@
+[
+  {
+    "screenId": "7298a0f167f0498588b449b224dc5095",
+    "screenTitle": "Gameplay - NeonSwitch Canary",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "DASHBOARD",
+        "href": "#",
+        "line": 163
+      },
+      {
+        "type": "link",
+        "label": "ARSENAL",
+        "href": "#",
+        "line": 167
+      },
+      {
+        "type": "link",
+        "label": "CIRCUITS",
+        "href": "#",
+        "line": 171
+      },
+      {
+        "type": "link",
+        "label": "ARCHIVE",
+        "href": "#",
+        "line": 175
+      },
+      {
+        "type": "link",
+        "label": "PRIVACY_PROTOCOL",
+        "href": "#",
+        "line": 279
+      },
+      {
+        "type": "link",
+        "label": "SIGNAL_RESOURCES",
+        "href": "#",
+        "line": 280
+      },
+      {
+        "type": "button",
+        "label": "Pause",
+        "line": 143
+      },
+      {
+        "type": "button",
+        "label": "Settings",
+        "line": 146
+      },
+      {
+        "type": "button",
+        "label": "START GAME",
+        "line": 239
+      },
+      {
+        "type": "button",
+        "label": "RESTART",
+        "line": 243
+      },
+      {
+        "type": "button",
+        "label": "RESUME PROTOCOL",
+        "line": 267
+      },
+      {
+        "type": "button",
+        "label": "ABORT MISSION",
+        "line": 270
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "DASHBOARD",
+        "href": "#",
+        "line": 163
+      },
+      {
+        "type": "link",
+        "label": "ARSENAL",
+        "href": "#",
+        "line": 167
+      },
+      {
+        "type": "link",
+        "label": "CIRCUITS",
+        "href": "#",
+        "line": 171
+      },
+      {
+        "type": "link",
+        "label": "ARCHIVE",
+        "href": "#",
+        "line": 175
+      },
+      {
+        "type": "link",
+        "label": "PRIVACY_PROTOCOL",
+        "href": "#",
+        "line": 279
+      },
+      {
+        "type": "link",
+        "label": "SIGNAL_RESOURCES",
+        "href": "#",
+        "line": 280
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Pause",
+        "line": 143
+      },
+      {
+        "type": "button",
+        "label": "Settings",
+        "line": 146
+      },
+      {
+        "type": "button",
+        "label": "START GAME",
+        "line": 239
+      },
+      {
+        "type": "button",
+        "label": "RESTART",
+        "line": 243
+      },
+      {
+        "type": "button",
+        "label": "RESUME PROTOCOL",
+        "line": 267
+      },
+      {
+        "type": "button",
+        "label": "ABORT MISSION",
+        "line": 270
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 12,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "33004f6f7d6f413e99dd083cd6094f30",
+    "screenTitle": "Game Settings - NeonSwitch Canary",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "Close Settings",
+        "line": 146
+      },
+      {
+        "type": "button",
+        "label": "Casual",
+        "line": 160
+      },
+      {
+        "type": "button",
+        "label": "Standard",
+        "line": 164
+      },
+      {
+        "type": "button",
+        "label": "Elite",
+        "line": 168
+      },
+      {
+        "type": "button",
+        "label": "Reset Preferences",
+        "line": 223
+      },
+      {
+        "type": "button",
+        "label": "Back To Game",
+        "line": 228
+      },
+      {
+        "type": "button",
+        "label": "Save &amp; Return",
+        "line": 232
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 186
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Close Settings",
+        "line": 146
+      },
+      {
+        "type": "button",
+        "label": "Casual",
+        "line": 160
+      },
+      {
+        "type": "button",
+        "label": "Standard",
+        "line": 164
+      },
+      {
+        "type": "button",
+        "label": "Elite",
+        "line": 168
+      },
+      {
+        "type": "button",
+        "label": "Reset Preferences",
+        "line": 223
+      },
+      {
+        "type": "button",
+        "label": "Back To Game",
+        "line": 228
+      },
+      {
+        "type": "button",
+        "label": "Save &amp; Return",
+        "line": 232
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 186
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 8,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]
