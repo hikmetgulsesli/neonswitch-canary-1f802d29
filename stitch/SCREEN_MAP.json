@@ -1,0 +1,20 @@
+[
+  {
+    "screenId": "7298a0f167f0498588b449b224dc5095",
+    "name": "Gameplay - NeonSwitch Canary",
+    "type": "game",
+    "description": "Gameplay - NeonSwitch Canary screen",
+    "surfaceIds": [
+      "SURF_GAMEPLAY"
+    ]
+  },
+  {
+    "screenId": "33004f6f7d6f413e99dd083cd6094f30",
+    "name": "Game Settings - NeonSwitch Canary",
+    "type": "settings",
+    "description": "Game Settings - NeonSwitch Canary screen",
+    "surfaceIds": [
+      "SURF_GAME_SETTINGS"
+    ]
+  }
+]

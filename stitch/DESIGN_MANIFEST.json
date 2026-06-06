@@ -1,0 +1,24 @@
+[
+  {
+    "screenId": "7298a0f167f0498588b449b224dc5095",
+    "title": "Gameplay - NeonSwitch Canary",
+    "htmlFile": "7298a0f167f0498588b449b224dc5095.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzEwNTc4YjdhZmZlNjQwNDc4YTZlMGIwNWIyZGI1OTYxEgsSBxCN19Wi9xcYAZIBJAoKcHJvamVjdF9pZBIWQhQxMjg2NTczOTAxNDU0NTQyNTk5NA&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/neonswitch-canary-1f802d29/stitch/7298a0f167f0498588b449b224dc5095.html",
+    "surfaceIds": [
+      "SURF_GAMEPLAY"
+    ]
+  },
+  {
+    "screenId": "33004f6f7d6f413e99dd083cd6094f30",
+    "title": "Game Settings - NeonSwitch Canary",
+    "htmlFile": "33004f6f7d6f413e99dd083cd6094f30.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2VmMDNiMWU0YjAyZTRhZDY4MmIwZTU4MGJlMjU0ODk5EgsSBxCN19Wi9xcYAZIBJAoKcHJvamVjdF9pZBIWQhQxMjg2NTczOTAxNDU0NTQyNTk5NA&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/neonswitch-canary-1f802d29/stitch/33004f6f7d6f413e99dd083cd6094f30.html",
+    "surfaceIds": [
+      "SURF_GAME_SETTINGS"
+    ]
+  }
+]
