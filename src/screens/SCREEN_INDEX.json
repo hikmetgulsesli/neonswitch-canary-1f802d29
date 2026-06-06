@@ -1,0 +1,144 @@
+[
+  {
+    "screenId": "7298a0f167f0498588b449b224dc5095",
+    "title": "Gameplay - NeonSwitch Canary",
+    "componentName": "GameplayNeonswitchCanary",
+    "file": "src/screens/GameplayNeonswitchCanary.tsx",
+    "buttons": 6,
+    "inputs": 0,
+    "links": 6,
+    "actions": [
+      {
+        "id": "pause-1",
+        "kind": "button",
+        "label": "Pause",
+        "index": 0
+      },
+      {
+        "id": "settings-2",
+        "kind": "button",
+        "label": "Settings",
+        "index": 1
+      },
+      {
+        "id": "start-game-3",
+        "kind": "button",
+        "label": "START GAME",
+        "index": 2
+      },
+      {
+        "id": "restart-4",
+        "kind": "button",
+        "label": "RESTART",
+        "index": 3
+      },
+      {
+        "id": "resume-protocol-5",
+        "kind": "button",
+        "label": "RESUME PROTOCOL",
+        "index": 4
+      },
+      {
+        "id": "abort-mission-6",
+        "kind": "button",
+        "label": "ABORT MISSION",
+        "index": 5
+      },
+      {
+        "id": "dashboard-1",
+        "kind": "link",
+        "label": "DASHBOARD",
+        "href": "#",
+        "index": 0
+      },
+      {
+        "id": "arsenal-2",
+        "kind": "link",
+        "label": "ARSENAL",
+        "href": "#",
+        "index": 1
+      },
+      {
+        "id": "circuits-3",
+        "kind": "link",
+        "label": "CIRCUITS",
+        "href": "#",
+        "index": 2
+      },
+      {
+        "id": "archive-4",
+        "kind": "link",
+        "label": "ARCHIVE",
+        "href": "#",
+        "index": 3
+      },
+      {
+        "id": "privacy-protocol-5",
+        "kind": "link",
+        "label": "PRIVACY_PROTOCOL",
+        "href": "#",
+        "index": 4
+      },
+      {
+        "id": "signal-resources-6",
+        "kind": "link",
+        "label": "SIGNAL_RESOURCES",
+        "href": "#",
+        "index": 5
+      }
+    ]
+  },
+  {
+    "screenId": "33004f6f7d6f413e99dd083cd6094f30",
+    "title": "Game Settings - NeonSwitch Canary",
+    "componentName": "GameSettingsNeonswitchCanary",
+    "file": "src/screens/GameSettingsNeonswitchCanary.tsx",
+    "buttons": 7,
+    "inputs": 1,
+    "links": 0,
+    "actions": [
+      {
+        "id": "close-settings-1",
+        "kind": "button",
+        "label": "Close Settings",
+        "index": 0
+      },
+      {
+        "id": "casual-2",
+        "kind": "button",
+        "label": "Casual",
+        "index": 1
+      },
+      {
+        "id": "standard-3",
+        "kind": "button",
+        "label": "Standard",
+        "index": 2
+      },
+      {
+        "id": "elite-4",
+        "kind": "button",
+        "label": "Elite",
+        "index": 3
+      },
+      {
+        "id": "reset-preferences-5",
+        "kind": "button",
+        "label": "Reset Preferences",
+        "index": 4
+      },
+      {
+        "id": "back-to-game-6",
+        "kind": "button",
+        "label": "Back To Game",
+        "index": 5
+      },
+      {
+        "id": "save-and-return-7",
+        "kind": "button",
+        "label": "Save and Return",
+        "index": 6
+      }
+    ]
+  }
+]
