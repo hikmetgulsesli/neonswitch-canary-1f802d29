@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { GameplayNeonswitchCanary } from './screens';
 import { GameSettingsNeonswitchCanary } from './screens';
 import { AppState, subscribeAppState, actions, initStore } from './features/neonswitch-canary/neonswitch-canary.store';
@@ -21,7 +21,7 @@ export default function App() {
     mountTestBridge();
   }, []);
 
-  const gameplayActions = useCallback(
+  const gameplayActions = useMemo(
     () => ({
       'pause-1': actions.pauseGame,
       'settings-2': actions.openSettings,
@@ -39,7 +39,7 @@ export default function App() {
     []
   );
 
-  const settingsActions = useCallback(
+  const settingsActions = useMemo(
     () => ({
       'close-settings-1': actions.closeSettings,
       'casual-2': () => actions.setDifficulty('casual'),
@@ -70,7 +70,7 @@ export default function App() {
     >
       {appState.screen === 'gameplay' && (
         <GameplayNeonswitchCanary
-          actions={gameplayActions()}
+          actions={gameplayActions}
           runtime={{
             player: appState.runtime.player,
             obstacles: appState.runtime.obstacles,
@@ -83,7 +83,7 @@ export default function App() {
         />
       )}
       {appState.screen === 'settings' && (
-        <GameSettingsNeonswitchCanary actions={settingsActions()} />
+        <GameSettingsNeonswitchCanary actions={settingsActions} />
       )}
     </div>
   );

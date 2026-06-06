@@ -1,4 +1,5 @@
 import { createGameRuntime, GameRuntime, GameRuntimeState } from '../../game/game-runtime';
+import { repoGet, repoSet, repoRemove } from './neonswitch-canary.repo';
 
 export type Screen = 'gameplay' | 'settings';
 
@@ -14,22 +15,11 @@ let runtime: GameRuntime | null = null;
 let listeners: Set<(state: AppState) => void> = new Set();
 
 function readHighScore(): number {
-  try {
-    const raw = localStorage.getItem('neonswitch-canary.highScore');
-    if (!raw) return 0;
-    const parsed = JSON.parse(raw);
-    return typeof parsed === 'number' ? parsed : 0;
-  } catch {
-    return 0;
-  }
+  return repoGet<number>('highScore', 0);
 }
 
 function writeHighScore(value: number) {
-  try {
-    localStorage.setItem('neonswitch-canary.highScore', JSON.stringify(value));
-  } catch {
-    // ignore
-  }
+  repoSet('highScore', value);
 }
 
 function buildAppState(): AppState {
@@ -128,11 +118,7 @@ export const actions = {
     notify();
   },
   resetPreferences() {
-    try {
-      localStorage.removeItem('neonswitch-canary.highScore');
-    } catch {
-      // ignore
-    }
+    repoRemove('highScore');
     const rt = ensureRuntime();
     rt.restart('standard');
     notify();
@@ -146,5 +132,6 @@ export const actions = {
 };
 
 export function initStore() {
-  ensureRuntime();
+  const rt = ensureRuntime();
+  rt.restart();
 }
